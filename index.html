@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wordly Dictionary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Wordly Dictionary</h1>
+    <p>Search for words, definitions, and pronunciation</p>
+  </header>
+
+  <main>
+    <form id="search-form" aria-label="Search dictionary">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Enter a word..."
+        aria-label="Word search input"
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <section id="results">
+      <!-- Dynamic content will appear here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
